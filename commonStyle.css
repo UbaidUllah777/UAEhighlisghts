@@ -44,7 +44,7 @@ a:hover{color: greenyellow;}
 
 
 .banner {
-    background-image: url('./images/Banner.jpg'); 
+    background-image: url('./images/Banner2.jpg'); 
     background-size: cover;
     background-position: center;
     color: white;
@@ -69,3 +69,19 @@ a:hover{color: greenyellow;}
     }}
 
     .active{color: greenyellow;}
+
+    
+    
+    
+    
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    

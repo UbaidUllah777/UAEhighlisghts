@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./commonStyle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./commonStyle.css" />
+    <link rel="stylesheet" href="contact.css" />
 
     <title>Contact Us</title>
 
-    <style>
-       
-    </style>
-</head>
-<body>
-
-    <header>
+  </head>
+  <body>
+    <mian class="mainContainer">
+      <header>
         <!-- Logo on the left -->
-        <a href="index.html"><img  src="./images/Logo.png" alt="UAE Logo" class="logo"></a>
+        <a href="index.html"
+          ><img src="./images/Logo.png" alt="UAE Logo" class="logo"
+        /></a>
 
         <!-- Navigation on the right -->
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="leaders.html">Leaders</a></li>
-                <li><a  href="areas.html">Areas</a></li>
-                <li><a href="universities.html">Universities</a></li>
-                <li><a class="active"  href="contact.html">Contact Us</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="leaders.html">Leaders</a></li>
+            <li><a href="areas.html">Areas</a></li>
+            <li><a href="universities.html">Universities</a></li>
+            <li><a class="active" href="contact.html">Contact Us</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
 
-    <div class="banner">
-        <h2>Welcome to UAE Highlights</h2>
-        <p>Explore the beauty and culture of the United Arab Emirates.</p>
-    </div>
+      <div class="banner">
+        <h2 style="color: white;">Contact Us</h2>
+        <p>Explore diverse information about United Arab Emirates.</p>
+      </div>
 
-    <!-- Additional content goes here -->
+      <!-- Additional content goes here -->
+
+      <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div class="horizentalRow">
+        <hr />
+      </div>
+      <div class="companyContactDetails">
+        <h2>Company Contact Persons</h2>
+        <p>For further queries and questions or suggestions, please feel free to contact our company representives. </p>
+        <h4>Name: Sultan Almansoori</h4>
+        <p>ID:1093671</p>
+        <h4>Name: Butti Salem Almaazmi</h4>
+        <p>ID:1094040</p>
+      </div>
+
+      <div class="horizentalRow">
+        <hr />
+    </mian>
 
     <footer>
-        <p>&copy; All Rights Reserved</p>
+      <p>&copy; All Rights Reserved</p>
     </footer>
-</body>
+  </body>
 </html>

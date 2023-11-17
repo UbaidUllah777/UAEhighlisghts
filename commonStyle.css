@@ -107,6 +107,84 @@ a:hover{color: greenyellow;}
 
 
 
+
+
+.leaders {
+    text-align: center;
+    padding: 20px;
+    margin-bottom:30px ;
+}
+
+.leader {
+    display: inline-block;
+    width: 45%; /* Adjust as needed */
+    margin: 10px;
+    border: 1px solid #7e1111;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.leader img {
+    width: 100%;
+    height: auto;
+}
+
+.view-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+
+.view-more-btn:hover{
+    
+    background-color: #6b6464;
+}
+
+.areaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+  }
+  
+  .areaContainer img {
+    max-width: 100%;
+    max-height:100%;
+   
+  }
+
+  .areaImage{
+    min-width: 500px;
+    padding: 10px 20px;
+  }
+  
+  .areaText h1{
+    font-size: 25px;
+    padding-left: 20px;
+    color: #7e1111;
+  }
+  .areaText h2{
+    font-size: 18px;
+    padding-left: 20px;
+    color: #7e1111;
+  }
+  .areaText p{
+    text-align: justify;
+    padding: 5px 20px;
+  }
+
+  .milestone{
+    color: #7e1111;
+  }
+  .keyMilestones li{
+    margin: 10px 0px;
+  }
+
+
 /* University Cards:START */
 
 .universitiesContainer{
@@ -142,3 +220,12 @@ a:hover{color: greenyellow;}
     opacity: 0.7;
   }
 /* University Card ENds */
+
+
+.pageIntroductionConainer{
+
+}
+.pageIntroductionConainer p{
+    text-align: justify;
+    padding: 20px 30px;
+}

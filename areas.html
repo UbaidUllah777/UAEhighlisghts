@@ -1,44 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./commonStyle.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./commonStyle.css" />
 
     <title>UAE Areas</title>
 
-    <style>
-       
-    </style>
-</head>
-<body>
-
-    <header>
+    <style></style>
+  </head>
+  <body>
+    <main class="mainContainer">
+      <header>
         <!-- Logo on the left -->
-        <a href="index.html"><img  src="./images/Logo.png" alt="UAE Logo" class="logo"></a>
+        <a href="index.html"
+          ><img src="./images/Logo.png" alt="UAE Logo" class="logo"
+        /></a>
 
         <!-- Navigation on the right -->
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="leaders.html">Leaders</a></li>
-                <li><a class="active"  href="areas.html">Areas</a></li>
-                <li><a href="universities.html">Universities</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="leaders.html">Leaders</a></li>
+            <li><a class="active" href="areas.html">Areas</a></li>
+            <li><a href="universities.html">Universities</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
 
-    <div class="banner">
+      <div class="banner">
         <h2>Welcome to UAE Highlights</h2>
         <p>Explore the beauty and culture of the United Arab Emirates.</p>
-    </div>
+      </div>
 
-    <!-- Additional content goes here -->
+      <!-- Areas Section -->
+      <div class="areasContainer">
+        <!-- Heading -->
+        <div class="sectionHeading" style="margin: 0px 10px">
+          <h1>UAE Areas</h1>
+        </div>
 
+        <!-- Areas 1 -->
+        <div class="areaContainer">
+          <div class="areaImage">
+            <img src="./images/areaDubai.jpeg" />
+          </div>
+          <div class="areaText">
+            <h1>DUBAI</h1>
+            <p>
+              Dubai, a dazzling jewel in the heart of the United Arab Emirates,
+              captivates with its futuristic skyline and unparalleled
+              extravagance. Nestled along the shores of the Arabian Gulf, this
+              cosmopolitan metropolis seamlessly blends tradition and modernity.
+              From the iconic Burj Khalifa piercing the sky to the man-made
+              marvels of Palm Jumeirah, Dubai stands as a testament to boundless
+              ambition and architectural brilliance. Its vibrant blend of
+              culture, commerce, and luxury makes Dubai a global hub for
+              innovation, entertainment, and the epitome of a dynamic,
+              ever-evolving cityscape.
+            </p>
+            <h2>Key Milestones:</h2>
+            <ul class="keyMilestones">
+              <li>
+                <span class="milestone"> Burj Khalifa : </span>The tallest
+                building in the world, opened in 2010
+              </li>
+              <li>
+                <span class="milestone"> Palm Jumeirah : </span>An artificial
+                archipelago and a symbol of Dubai's innovative construction,
+                completed in 2006.
+              </li>
+              <li>
+                <span class="milestone"> Dubai Mall : </span>One of the largest
+                shopping malls globally, opened in 2008
+              </li>
+              <li>
+                <span class="milestone"> Dubai Metro : </span>The first urban
+                train network in the Arabian Peninsula, operational since 2009.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- AREA 2 -->
+        <div class="areaContainer">
+          <div class="areaText">
+            <h1>Abu Dhabi</h1>
+            <p>
+              Abu Dhabi, the capital of the United Arab Emirates, exudes an air
+              of refined elegance against the backdrop of the Arabian Desert.
+              Home to the majestic Sheikh Zayed Grand Mosque, a symbol of
+              architectural splendor and cultural richness, Abu Dhabi invites
+              visitors to explore its captivating blend of tradition and
+              modernity. The city's commitment to art and heritage is
+              exemplified by the world-renowned Louvre Abu Dhabi, while the
+              thrill-seekers are drawn to the adrenaline-pumping experiences at
+              Ferrari World. With its luxurious resorts, stunning Corniche, and
+              a rich tapestry of cultural landmarks, Abu Dhabi stands as an
+              oasis of sophistication, offering a glimpse into the soul of the
+              UAE.
+            </p>
+            <h2>Key Milestones:</h2>
+            <ul class="keyMilestones">
+              <li>
+                <span class="milestone"> Sheikh Zayed Grand Mosque : </span>One
+                of the largest mosques globally, completed in 2007. Louvre Abu
+                Dhabi: An iconic museum that opened in 2017, showcasing art and
+                cultural artifacts.
+              </li>
+              <li>
+                <span class="milestone"> Ferrari World Abu Dhabi: </span>The
+                first Ferrari-branded theme park, opened in 2010.
+              </li>
+              <li>
+                <span class="milestone"> Yas Marina Circuit : </span> Hosts the
+                Abu Dhabi Grand Prix and is a hub for motorsports, completed in
+                2009.
+              </li>
+            </ul>
+          </div>
+          <div class="areaImage">
+            <img src="./images/areaAbuDhabi.jpeg" />
+          </div>
+        </div>
+        <center>
+          <a style="margin: 50px" href="areas.html" class="view-more-btn"
+            >View More</a
+          >
+        </center>
+      </div>
+    </main>
     <footer>
-        <p>&copy; All Rights Reserved</p>
+      <p>&copy; All Rights Reserved</p>
     </footer>
-</body>
+  </body>
 </html>

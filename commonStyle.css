@@ -94,3 +94,51 @@ a:hover{color: greenyellow;}
     
         background-color: #ccc;
     }
+.sectionHeading{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.071), 0 3px 10px 0 rgba(0, 0, 0, 0.071);
+    text-align: center;
+}
+.sectionHeading h1{
+    color: #7e1111;
+    font-size: 3rem;
+    padding: 2px 0px;
+}
+
+
+
+/* University Cards:START */
+
+.universitiesContainer{
+    display: flex;
+}
+.universityCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .universityCard button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .universityCard button:hover {
+    opacity: 0.7;
+  }
+/* University Card ENds */
